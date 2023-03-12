@@ -1,5 +1,5 @@
 {% set name = "dash-auth" %}
-{% set version = "1.4.1" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dash_auth-{{ version }}.tar.gz
-  sha256: 861006912d2124668da566b4caa3feefbbe2cc72702834a16cc64db7a7ddfbb9
+  sha256: d9eafb8f3e1f1580bcf90023f8a5915f8f44ee07d80e35490b32f3548da49cc5
 
 build:
   number: 0
