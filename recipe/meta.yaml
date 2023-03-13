@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.6  
     - dash >=1.1.1
-    - dash-core-component
+    - dash-core-components
     - dash-html-components
     - dash-table
 
