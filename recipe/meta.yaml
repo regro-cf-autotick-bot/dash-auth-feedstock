@@ -22,6 +22,9 @@ requirements:
   run:
     - python >=3.6  
     - dash >=1.1.1
+    - dash-core-component
+    - dash-html-components
+    - dash-table
 
 test:
   imports:
