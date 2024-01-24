@@ -1,5 +1,5 @@
 {% set name = "dash-auth" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dash_auth-{{ version }}.tar.gz
-  sha256: d9eafb8f3e1f1580bcf90023f8a5915f8f44ee07d80e35490b32f3548da49cc5
+  sha256: 82b9bd6fb82bef28aab4f4bb09989697bfe8779cfb6e7c5523f98a6601646ed7
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - python >=3.6  
+    - python >=3.6
     - dash >=1.1.1
     - dash-core-components
     - dash-html-components
